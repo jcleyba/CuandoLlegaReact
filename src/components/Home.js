@@ -32,11 +32,10 @@ class Home extends Component {
                 return <Picker.Item key={i} value={s.id} label={s.display.toString()}/>
             });
         }
-
         return (
             <Picker style={{flex:1}}
-                    selectedValue={this.props.selectedLinea}
-                    onValueChange={ cat => this.selectedLineaChanged(cat)}>
+                    selectedValue={this.props.selectedLinea.id?this.props.selectedLinea.id: this.props.selectedLinea}
+                    onValueChange={ linea => this.selectedLineaChanged(linea)}>
                 {lineasItems}
             </Picker>
         );

@@ -24,7 +24,6 @@ export const fetchResultsByParadaAndLinea = (parada, linea) => {
             '<v:Body><RecuperarProximosArribos xmlns="http://tempuri.org/" id="o0" c:root="1"><identificadorParada i:type="d:string">' + parada + '</identificadorParada><codigoLineaParada i:type="d:int">' + lineaParsed + '</codigoLineaParada>' +
             '<codigoAplicacion i:type="d:int">0</codigoAplicacion><codigoEntidad i:type="d:int">15</codigoEntidad><localidad i:type="d:string">CIUDAD DE CORDOBA</localidad></RecuperarProximosArribos></v:Body></v:Envelope>'
 
-        console.log(soap);
         var obj = {
             method: 'POST',
             headers: headers,

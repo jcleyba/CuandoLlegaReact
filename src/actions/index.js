@@ -4,3 +4,5 @@
 export * from './LineasActions'
 export * from './ParadasActions'
 export * from './SearchActions'
+export * from './CallesActions'
+export * from './InterseccionesActions'
