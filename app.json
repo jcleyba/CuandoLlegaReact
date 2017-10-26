@@ -1,4 +1,9 @@
 {
   "name": "ReactCuandoLlega",
-  "displayName": "ReactCuandoLlega"
+  "displayName": "ReactCuandoLlega",
+  "expo": {
+    "name": "ReactCuandoLlega",
+    "slug": "react-cuando-llega",
+    "sdkVersion": "18.0.0"
+  }
 }
